@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="whitetextText14" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">14dp</item>
+
+    </style>
+    <style name="whitetextText15" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">15dp</item>
+
+    </style>
+    <style name="whitetextText16" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16dp</item>
+
+    </style>
+    <style name="whitetextText17" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">15dp</item>
+
+    </style>
+    <style name="whitetextText18" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">18dp</item>
+
+    </style>
+
+    <style name="whitetextText20" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="whitetextText22" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="whitetextText25" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>
+
+

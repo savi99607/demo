@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorWhite"
+        style="@style/whitetextText22"
+        android:gravity="center"
+        ></TextView>
+
+
+
+    <TextView
+        android:id="@+id/your_key"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        style="@style/whitetextText25"
+        android:gravity="center"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/volumeTextFiled"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="@string/setVolume"
+
+            style="@style/whitetextText17"
+            android:gravity="center"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/minvolume"
+                style="@style/whitetextText17"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:tint="@color/colorWhite"
+                ></TextView>
+            <SeekBar
+                android:layout_gravity="center"
+                android:layout_weight=".8"
+                android:id="@+id/seekBarforvolume"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/maxvolume"
+                style="@style/whitetextText17"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:tint="@color/colorWhite"
+                ></TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorgrey"
+            android:alpha=".4"
+            ></View>
+
+
+
+        <TextView
+            android:id="@+id/brightnesstextView"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="@string/setbrightness"
+            style="@style/whitetextText17"
+            android:gravity="center"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/minbrightness"
+                style="@style/whitetextText17"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:tint="@color/colorWhite"
+                ></TextView>
+            <SeekBar
+                android:layout_gravity="center"
+                android:layout_weight=".8"
+                android:id="@+id/seekBarforbrightness"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/maxbrihtness"
+                style="@style/whitetextText17"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:tint="@color/colorWhite"
+                ></TextView>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorgrey"
+            android:alpha=".4"
+            ></View>
+
+
+
+        <TextView
+            android:id="@+id/screentimeouttextview"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="@string/settimeout"
+            style="@style/whitetextText17"
+            android:gravity="center"
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/hoororimg"
+                ></ImageView>
+
+            <TextView
+                android:id="@+id/setSieranTime"
+                style="@style/whitetextText17"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:padding="4dp"
+                android:text="@string/sierantime"
+                android:textColor="@color/colorWhite"></TextView>
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorgrey"
+            android:alpha=".4"
+            ></View>
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/accesschildcontrol"
+        android:layout_alignParentBottom="true"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="@string/save"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        style="@style/whitetextText17"
+        android:gravity="center"
+        ></TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Child Eyes Protection</string>
+
+    <string name="setVolume">Set Volume</string>
+    <string name="setbrightness">Set Brightness</string>
+    <string name="settimeout">Set Screen Timeout</string>
+    <string name="save">Access Child Control</string>
+    <string name="sierantime">Set Sieran Time</string>
+
+    <string name="reterive_child_data">Reterive</string>
+    <string name="savesettings">Save Settings</string>
+
+<!--    <string name="adunit">ca-app-pub-2745037251574118/1243278187</string>-->
+    <string name="adunit">ca-app-pub-3940256099942544/6300978111</string>//testing
+
+
+
+
+</resources>
